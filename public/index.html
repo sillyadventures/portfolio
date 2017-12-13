@@ -2,18 +2,98 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/assets/script/style.css"
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/css/uikit.min.css" />
     <title>silly adventures</title>
   </head>
   <body>
+    <div class="uk-container">
     <div class="nav">
-      <a href="https://github.com/sillyadventures"></a>
+      <a href="https://github.com/sillyadventures">
+        <img src="./assets/images/github-logo.svg">
+      </a>
+      <a href="https://www.linkedin.com/in/shuiloong/">
+        <img src="./assets/images/linkedin-logo.svg">
+      </a>
+      </div>
+
+    <h1>Shui Loong</h1>
+    <h2>Front End Developer</h2>
+    <h3>Designing + Coding + Crafting</h3>
+
+    <div uk-scrollspy="cls:uk-animation-fade" class ="all">
+      <div class="uk-child-width-expand@s uk-text-center" id="projects"uk-grid>
+        <div class="uk-offcanvas-content" uk-toggle="target: #offcanvas-usage">
+          <div id="card" class="uk-card uk-card-default uk-card-body uk-overflow-hidden">
+            <img uk-toggle="cls: uk-animation-kenburns; repeat: true; mode: hover" id="picture" src="./assets/images/PinkStarGirl.gif">
+            <span id="logo"><img src="./assets/images/gamepad.svg"> Star Power !</span>
+          </div>
+          <div id="offcanvas-usage" uk-offcanvas>
+            <div id="canvasbar" class="uk-offcanvas-bar uk-background-cover">
+              <h3>Star Power !</h3>
+
+
+
+              <div class="uk-slidenav-position" data-uk-slideshow='{autoplay:true,kenburns:true}'>
+                <ul class="uk-slideshow">
+                  <li><img src="./assets/images/pro2.png"></li>
+                  <li><img src="./assets/images/pro1.png"></li>
+                  <li><img src="./assets/images/pro3.png"></li>
+                </ul>
+              </div>
+              <p>Player will be moving across screen collecting stars fallen from the sky, each star has a different score.
+                  Collect as much stars as humanly possible to earn points!
+                  But watch out for the pesky 7 month cat ghost, they are here to steal your stars away, they can't resist shiny stuff.</p>
+              <p>TL:DR Collect stars and avoid cat ghost.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+        <div>
+          <div id="card" class="uk-card uk-card-default uk-card-body uk-overflow-hidden">
+            <img uk-toggle="cls: uk-animation-kenburns; repeat: true; mode: hover" id="picture" src="./assets/images/painting.jpg">
+            <span id="logo"><img src="./assets/images/search.svg"> Arty Crafty Courses</span>
+          </div>
+        </div>
+        <div>
+          <div id="card" class="uk-card uk-card-default uk-card-body uk-overflow-hidden">
+            <img uk-toggle="cls: uk-animation-kenburns; repeat: true; mode: hover" id="picture" src="./assets/images/table11.jpg">
+            <span id="logo"><img src="./assets/images/search.svg"> The Happy Couple</span>
+          </div>
+        </div>
+      </div>
+      <div class="uk-child-width-expand@s uk-text-center" id="projects"uk-grid>
+        <div>
+          <div id="card" class="uk-card uk-card-default uk-card-body uk-overflow-hidden">
+            <img uk-toggle="cls: uk-animation-kenburns; repeat: true; mode: hover" id="picture" src="./assets/images/569.jpg">
+            <span id="logo"><img src="./assets/images/search.svg"> Pear Programming</span>
+          </div>
+        </div>
+        <div>
+          <div id="card" class="uk-card uk-card-default uk-card-body uk-overflow-hidden">
+            <img uk-toggle="cls: uk-animation-kenburns; repeat: true; mode: hover" id="picture" src="./assets/images/ckjane.png">
+            <span id="logo"><img src="./assets/images/video-camera.svg"> Wedding Animation</span>
+          </div>
+        </div>
+        <div>
+            <div id="card" class="uk-card uk-card-default uk-card-body uk-overflow-hidden">
+              <img uk-toggle="cls: uk-animation-kenburns; repeat: true; mode: hover" id="picture" src="./assets/images/work.JPG">
+              <span id="logo"><div uk-spinner></div>Work In Progress</span>
+            </div>
+        </div>
+      </div>
     </div>
 
-    <h1>Welcome home</h1>
-    <h1>Welcome Firebase</h1>
-    <a href="./about.html">Go to About Me</a>
+    <a href="./about.html">Go to Testing Page</a>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="/assets/script/frontend.js"></script>
+    <script src="./assets/script/frontend.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit-icons.min.js"></script>
   </body>
 </html>

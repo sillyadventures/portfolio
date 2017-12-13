@@ -1,3 +1,9 @@
 $(function () {
-  console.log("testing 123");
+
+  var slideshow = UIkit.slideshow(.slides, {
+  autoplay : true,
+  duration : 1000
+  });
+
+
 })
